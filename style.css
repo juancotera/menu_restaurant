@@ -1,0 +1,82 @@
+nav {
+  display: flex;
+  /* border: 1px solid red; */
+  margin-block-end: 5em;
+  margin-top: 2em;
+}
+
+.menu {
+  /* border: 1px solid red; */
+  display: flex;
+  gap: 1em;
+  margin: auto;
+  padding: 0px;
+}
+
+.select {
+  background: #f72585;
+  border-radius: 4px;
+  color: white;
+}
+
+.menu li {
+  list-style: none;
+}
+
+.menu li a {
+  text-decoration: none;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: .5em;
+}
+
+.menu li a:hover{
+  background: #f72585;
+  border-radius: 4px;
+  color: white;
+}
+
+.contenedorTarjetas{
+  display: flex;
+  flex-direction: column;
+  max-width: max-content;
+  gap: 2em;
+  /* border: 1px solid blue; */
+  margin: auto;
+}
+
+.tarjetas {
+  margin: auto;
+  display: flex;
+  gap: 5em;
+  /* border: 1px solid orange; */
+}
+
+.tarjetasContent {
+  display: flex;
+  gap: 2em;
+  align-items: center;
+  padding: 1em;
+  border: 2px solid #3a0ca3;
+  border-radius: 1em;
+}
+
+.tarjetasContent:hover {
+  color: white;
+  background-color: #f72585;
+  cursor: pointer;
+}
+
+.tarjetasContent p {
+  color: #4cc9f0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+button {
+  cursor: pointer;
+  background-color: #3a0ca3;
+  color: white;
+  border: none;
+  padding: 1em;
+  border-radius: .5em;
+}
